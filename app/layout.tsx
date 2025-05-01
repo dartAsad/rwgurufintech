@@ -29,6 +29,7 @@ return (
         className={`${montserrat.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
 </ClerkProvider>
